@@ -8,7 +8,7 @@ class Node:
 
 def orderofTraversal(root):
        if root:
-        orderofTraversal (root.left)
+        orderofTraversal (root.left)    
         print(root.val)
         orderofTraversal (root.right)
        
